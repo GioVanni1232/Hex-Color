@@ -1,0 +1,58 @@
+input {
+  -webkit-appearance: none;
+  width: 100%;
+}
+
+input[type=range]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  border: 1px solid #000000;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  background: #ffffff;
+  cursor: pointer;
+  box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d; /* Add cool effects to your sliders! */
+}
+
+input[type=range]::-webkit-slider-runnable-track {
+  cursor: pointer;
+}
+
+.color {
+  background: -webkit-linear-gradient(left, hsl(0deg, 100%, 50%), hsl(10deg, 100%, 50%), hsl(20deg, 100%, 50%), hsl(30deg, 100%, 50%), hsl(40deg, 100%, 50%), hsl(50deg, 100%, 50%), hsl(60deg, 100%, 50%), hsl(70deg, 100%, 50%), hsl(80deg, 100%, 50%), hsl(90deg, 100%, 50%), hsl(100deg, 100%, 50%), hsl(110deg, 100%, 50%), hsl(120deg, 100%, 50%), hsl(130deg, 100%, 50%), hsl(140deg, 100%, 50%), hsl(150deg, 100%, 50%), hsl(160deg, 100%, 50%), hsl(170deg, 100%, 50%), hsl(180deg, 100%, 50%), hsl(190deg, 100%, 50%), hsl(200deg, 100%, 50%), hsl(210deg, 100%, 50%), hsl(220deg, 100%, 50%), hsl(230deg, 100%, 50%), hsl(240deg, 100%, 50%), hsl(250deg, 100%, 50%), hsl(260deg, 100%, 50%), hsl(270deg, 100%, 50%), hsl(280deg, 100%, 50%), hsl(290deg, 100%, 50%), hsl(300deg, 100%, 50%), hsl(310deg, 100%, 50%), hsl(320deg, 100%, 50%), hsl(330deg, 100%, 50%), hsl(340deg, 100%, 50%), hsl(350deg, 100%, 50%), hsl(0deg, 100%, 50%));
+}
+
+.percent1 {
+  background: -webkit-linear-gradient(left, hsl(0deg, 0%, 50%), hsl(0deg, 20%, 50%), hsl(0deg, 40%, 50%), hsl(0deg, 60%, 50%), hsl(0deg, 80%, 50%), hsl(0deg, 100%, 50%));
+}
+
+.percent2 {
+  background: -webkit-linear-gradient(left, hsl(0deg, 100%, 0%), hsl(0deg, 100%, 20%), hsl(0deg, 100%, 40%), hsl(0deg, 100%, 60%), hsl(0deg, 100%, 80%), hsl(0deg, 100%, 100%));
+}
+
+.opacity {
+  background: -webkit-linear-gradient(left, hsla(0deg, 0%, 0%, 0), hsla(0deg, 0%, 0%, 0.2), hsla(0deg, 0%, 0%, 0.4), hsla(0deg, 0%, 0%, 0.6), hsla(0deg, 0%, 0%, 0.8), hsla(0deg, 0%, 0%, 0.1));
+}
+
+.container {
+  background: left, hsl(0deg, 100%, 50%);
+  height: 50%;
+  position: absolute;
+  left: 10px;
+  right: 10px;
+}
+
+.value {
+  position: absolute;
+  width: auto;
+  height: 30px;
+  background-color: black;
+  left: 0;
+  bottom: -40px;
+  color: white;
+  font-weight: 500;
+  left: 1px;
+  display: flex;
+  align-items: center;
+  padding: 0 1em;
+}/*# sourceMappingURL=style.css.map */
